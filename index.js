@@ -73,7 +73,7 @@ bot.onText(/\/ean13 (.+)/, async (msg, match) => {
             textxalign:  'center',
         });
 
-        await new Promise(res => setTimeot(res, 1500));
+       
 
         await bot.sendPhoto(chatId, png, { caption: `EAN13: ${code}` });
     } catch (err) {
