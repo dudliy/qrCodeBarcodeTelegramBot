@@ -34,7 +34,13 @@ Simple bot for telegram, qr-code and barcode generator
 
 4. *Запустите бота:*
    ```
-   npm start
+   node index.js
+   ```
+
+   *Либо используйте pm2:*
+
+   ```
+   pm2 start index.js --name qrCodeBot
    ```
 
 ## Использование
